@@ -1,5 +1,5 @@
 {% set name = "pyrundeck" %}
-{% set version = "0.9.11" %}
+{% set version = "0.9.12" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyrundeck-{{ version }}.tar.gz
-  sha256: 0366258d25d2d7cb6dff37b005b0275260858380fa939d8aed99da91293e3348
+  sha256: e46973d4ded02192f099c3c05a67c4c459a61d28316d40b0253116cf3c022258
 
 build:
   number: 0
